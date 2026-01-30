@@ -33,7 +33,7 @@ function Layout() {
           headerShown: false,
           title: "Workout",
           tabBarIcon: ({ color, size }) => (
-            <AntDesign name="pluscircle" color={color} size={size} />
+            <AntDesign name="plus-circle" color={color} size={size} />
           ),
         }}
       />
@@ -54,7 +54,7 @@ function Layout() {
           headerShown: false,
           title: "History",
           tabBarIcon: ({ color, size }) => (
-            <AntDesign name="clockcircleo" color={color} size={size} />
+            <AntDesign name="clock-circle" color={color} size={size} />
           ),
         }}
       />

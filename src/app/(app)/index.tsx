@@ -1,6 +1,7 @@
 import { Link } from "expo-router";
 import React from "react";
-import { SafeAreaView, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Page() {
   return (
@@ -21,7 +22,7 @@ function Content() {
               role="heading"
               className="text-3xl text-center native:text-5xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl"
             >
-              Expo new + Tailwind (NativeWind) Template
+              Expo + Tailwind (NativeWind) Template
             </Text>
 
             <Text className="mx-auto max-w-[700px] text-lg text-center md:text-xl">
