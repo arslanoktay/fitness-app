@@ -1,6 +1,7 @@
 {
-"extends": "expo/tsconfig.base",
-"compilerOptions": {
-"strict": true
-}
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx" // react17 ve expo 54 için gerekli
+  }
 }

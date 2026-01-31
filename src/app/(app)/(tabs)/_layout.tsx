@@ -60,17 +60,17 @@ function Layout() {
       />
 
       <Tabs.Screen
-        name="profile"
+        name="profile/index"
         options={{
           headerShown: false,
           title: "Profile",
-          //   tabBarIcon: ({ color, size }) => (
-          //     <Image
-          //       source={user?.imageUrl ?? user?.externaşAccounts[0]?.imageUrl}
-          //       className="rounded-full"
-          //       style={{ width: 28, height: 28, borderRadius: 100 }}
-          //     />
-          //   ),
+            // tabBarIcon: ({ color, size }) => (
+            //   <Image
+            //     source={user?.imageUrl ?? user?.externaşAccounts[0]?.imageUrl}
+            //     className="rounded-full"
+            //     style={{ width: 28, height: 28, borderRadius: 100 }}
+            //   />
+            // ),
         }}
       />
     </Tabs>
